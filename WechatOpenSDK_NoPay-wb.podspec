@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WechatOpenSDK_NoPay-wb'
   s.version          = '1.8.6.2.1'
-  s.summary          = 'A short description of WechatOpenSDK_NoPay-wb.'
+  s.summary          = 'WechatOpenSDK_NoPay'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+WechatOpenSDK without payment.
                        DESC
 
   s.homepage         = 'https://github.com/PeterJames4719/WechatOpenSDK_NoPay-wb'
