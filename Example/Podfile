@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WechatOpenSDK_NoPay-wb_Example' do
+  pod 'WechatOpenSDK_NoPay-wb', :path => '../'
+
+  target 'WechatOpenSDK_NoPay-wb_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
