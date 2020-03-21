@@ -1,0 +1,6 @@
+framework module WechatOpenSDK_NoPay_wb {
+  umbrella header "WechatOpenSDK_NoPay-wb-umbrella.h"
+
+  export *
+  module * { export * }
+}

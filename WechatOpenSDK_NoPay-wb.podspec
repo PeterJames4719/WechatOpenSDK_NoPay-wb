@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WechatOpenSDK_NoPay-wb'
-  s.version          = '0.1.0'
+  s.version          = '1.8.6.2.1'
   s.summary          = 'A short description of WechatOpenSDK_NoPay-wb.'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/PeterJames4719/WechatOpenSDK_NoPay-wb.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WechatOpenSDK_NoPay-wb/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WechatOpenSDK_NoPay-wb' => ['WechatOpenSDK_NoPay-wb/Assets/*.png']
-  # }
+  s.source_files = 'WechatOpenSDK_NoPay-wb/Classes/*.{h,m}'
+  s.vendored_libraries = 'WechatOpenSDK_NoPay-wb/Classes/libWeChatSDK.a'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.libraries = 'sqlite3', 'z', 'c++'
+  s.frameworks = 'WebKit', 'UIKit', 'Foundation','CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,16 @@
+PODS:
+  - WechatOpenSDK_NoPay-wb (1.8.6.2.1)
+
+DEPENDENCIES:
+  - WechatOpenSDK_NoPay-wb (from `../`)
+
+EXTERNAL SOURCES:
+  WechatOpenSDK_NoPay-wb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WechatOpenSDK_NoPay-wb: b2c31ab5cac4877521547c87e2a6c30beeb04d33
+
+PODFILE CHECKSUM: 248c2875f908736b979b0fdcd61dbf5a942af9b2
+
+COCOAPODS: 1.7.5

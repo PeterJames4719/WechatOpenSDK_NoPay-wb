@@ -1,0 +1,1 @@
+../../../../../WechatOpenSDK_NoPay-wb/Classes/WechatAuthSDK.h

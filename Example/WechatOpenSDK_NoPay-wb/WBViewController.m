@@ -7,6 +7,7 @@
 //
 
 #import "WBViewController.h"
+#import <WXApi.h>
 
 @interface WBViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [WXApi registerApp:@"" universalLink:@""];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

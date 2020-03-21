@@ -1,0 +1,40 @@
+{
+  "name": "WechatOpenSDK_NoPay-wb",
+  "version": "1.8.6.2.1",
+  "summary": "A short description of WechatOpenSDK_NoPay-wb.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PeterJames4719/WechatOpenSDK_NoPay-wb",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PeterJames4719": "daasan123@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PeterJames4719/WechatOpenSDK_NoPay-wb.git",
+    "tag": "1.8.6.2.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WechatOpenSDK_NoPay-wb/Classes/*.{h,m}",
+  "vendored_libraries": "WechatOpenSDK_NoPay-wb/Classes/libWeChatSDK.a",
+  "libraries": [
+    "sqlite3",
+    "z",
+    "c++"
+  ],
+  "frameworks": [
+    "WebKit",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "Security",
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
+}
